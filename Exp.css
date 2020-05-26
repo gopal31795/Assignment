@@ -1,0 +1,66 @@
+.main{
+    border: 0.5px solid grey;
+    width:auto;
+    margin: 0px 30% 0px 30%;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-title{
+    font-style: normal;
+    font-weight: bold;
+}
+.header-close{
+   font-weight: bold;
+   cursor: pointer;
+}
+.btn_color{
+    background-color:grey;
+}
+.no_condition{
+    margin-top: 40%;
+    text-align: center;
+}
+.new_conditions{
+    text-align: center;
+    width: 80%;
+    word-wrap: break-word;
+}
+.clickDiv{
+    color: blue;
+    cursor: pointer;
+}
+  .selection-btn{
+        width:50%;
+        padding:1%;
+        cursor: pointer;
+    }
+
+    .group{
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+        padding: 1%;
+    }
+    .btn{
+        cursor: pointer;
+    }
+    .leftBtnClick{
+      cursor: pointer;
+    }
+    .wrongCondition{
+        border-bottom: 1px solid #fc9803    
+    }
+    .andORBtn{
+        display: flex;
+        justify-content: center;
+        padding:2%;
+    }
+    .blueBorder{
+        border-left: 3px solid blue;
+        border-right: 3px solid blue;
+    }
